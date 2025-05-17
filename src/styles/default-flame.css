@@ -11,4 +11,7 @@
     --color-auxiliary-standard: #9C9B99;
     --color-auxiliary-darker: #F0EFEC;
     --color-auxiliary-lighter: #F4F3F0;
+    --color-success: #3BAA75;
+    --color-warning: #E0B420;
+    --color-error: #D64545;
 }
