@@ -1,0 +1,14 @@
+:root{
+    --color-primary-standard: #0A0A0A;
+    --color-primary-darker: #080808;
+    --color-primary-lighter: #232323;
+    --color-secondary-standard: #028090;
+    --color-secondary-darker: #005661;
+    --color-secondary-lighter: #3CA0AE;
+    --color-tertiary-standard: #CF5C36;
+    --color-tertiary-darker: #9F4325;
+    --color-tertiary-lighter: #DE8061;
+    --color-auxiliary-standard: #9C9B99;
+    --color-auxiliary-darker: #F0EFEC;
+    --color-auxiliary-lighter: #F4F3F0;
+}
