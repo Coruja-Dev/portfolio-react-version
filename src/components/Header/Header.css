@@ -5,14 +5,22 @@ header {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+
+	/* margin-bottom: 2rem; */
 }
 
 .header-container {
 	width: 100%;
 	max-width: 1280px;
-	padding: 1.5rem 2rem;
+	padding: 0.5rem 2rem;
 	margin: 0 auto;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+}
+
+.owl-logo {
+	width: 39px;
+	height: 52px;
+	fill: var(--color-secondary-standard);
 }

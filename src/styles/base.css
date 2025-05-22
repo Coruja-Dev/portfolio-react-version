@@ -6,12 +6,37 @@
 	color: var(--color-auxiliary-standard);
 }
 
+#root {
+	height: 100%;
+}
+
 html,
 body {
 	margin: 0;
 	padding: 0;
 	width: 100%;
 	overflow-x: hidden;
+	height: 100%;
+}
+
+.content-wrapper {
+	width: 100vw;
+	height: calc(100vh - 80px);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	/* overflow: hidden;    */
+}
+
+main {
+	width: 100%;
+	max-width: 1280px;
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
 h1 {
@@ -44,8 +69,18 @@ small {
 	line-height: 1.5;
 }
 
-.owl-logo {
-	width: 39px;
-	height: 52px;
-	fill: var(--color-secondary-standard);
+.text-primary {
+	color: var(--color-primary-standard);
+}
+
+.text-secondary {
+	color: var(--color-secondary-standard);
+}
+
+.text-tertiary {
+	color: var(--color-tertiary-standard);
+}
+
+.text-auxiliary {
+	color: var(--color-auxiliary-standard);
 }

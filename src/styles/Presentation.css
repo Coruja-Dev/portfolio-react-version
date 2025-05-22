@@ -1,0 +1,50 @@
+.presentation-section {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	background-color: #444444;
+	white-space: pre;
+	height: calc(100%-2rem);
+}
+
+.text-box {
+	display: grid;
+}
+
+.line {
+	display: flex;
+	flex-direction: row;
+}
+
+.line h1 {
+	line-height: 0.8;
+}
+
+.line1 {
+	justify-content: flex-start;
+}
+
+.line2 {
+	justify-content: flex-end;
+}
+
+.line3 {
+	justify-content: center;
+}
+
+.animated-title {
+	animation: fade-in 1s ease-in;
+}
+
+@keyframes fade-in {
+	0% {
+		opacity: 0;
+		transform: translateY(-10px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
