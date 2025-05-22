@@ -18,9 +18,9 @@
 	flex-direction: row;
 }
 
-.line h1 {
+/* .line h1 {
 	line-height: 0.8;
-}
+} */
 
 .line1 {
 	justify-content: flex-start;
@@ -35,7 +35,9 @@
 }
 
 .animated-title {
-	animation: fade-in 1s ease-in;
+	animation:
+		fade-in 1s ease-in,
+		fade-out 1s ease-out 2s;
 }
 
 @keyframes fade-in {
@@ -47,4 +49,20 @@
 		opacity: 1;
 		transform: translateY(0);
 	}
+}
+
+@keyframes fade-out {
+	0% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+	100% {
+		opacity: 0;
+		transform: translateY(10px);
+	}
+}
+
+.owl-logo-big {
+	height: 416px;
+	width: 312px;
 }
