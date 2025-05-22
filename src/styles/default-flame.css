@@ -1,17 +1,17 @@
-:root{
-    --color-primary-standard: #0A0A0A;
-    --color-primary-darker: #080808;
-    --color-primary-lighter: #232323;
-    --color-secondary-standard: #CF5C36;
-    --color-secondary-darker: #9F4325;
-    --color-secondary-lighter: #DE8061;
-    --color-tertiary-standard: #028090;
-    --color-tertiary-darker: #005661;
-    --color-tertiary-lighter: #3CA0AE;
-    --color-auxiliary-standard: #F0EFEC;
-    --color-auxiliary-darker: #9C9B99;
-    --color-auxiliary-lighter: #F4F3F0;
-    --color-success: #3BAA75;
-    --color-warning: #E0B420;
-    --color-error: #D64545;
+:root {
+	--color-primary-standard: #0a0a0a;
+	--color-primary-darker: #080808;
+	--color-primary-lighter: #232323;
+	--color-secondary-standard: #cf5c36;
+	--color-secondary-darker: #9f4325;
+	--color-secondary-lighter: #de8061;
+	--color-tertiary-standard: #028090;
+	--color-tertiary-darker: #005661;
+	--color-tertiary-lighter: #3ca0ae;
+	--color-auxiliary-standard: #f0efec;
+	--color-auxiliary-darker: #9c9b99;
+	--color-auxiliary-lighter: #f4f3f0;
+	--color-success: #3baa75;
+	--color-warning: #e0b420;
+	--color-error: #d64545;
 }
