@@ -5,7 +5,7 @@ import './styles/default-flame.css'
 import App from './App.tsx'
 
 createRoot(document.getElementById('root')!).render(
-  <StrictMode>
+  <StrictMode> 
     <App />
   </StrictMode>,
 )

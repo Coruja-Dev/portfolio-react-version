@@ -4,19 +4,13 @@
     background-color: var(--color-primary-standard);
     font-family: 'Libre Baskerville', Georgia, 'Times New Roman', Times, serif;
     color: var(--color-auxiliary-standard);
-    overflow-x: hidden;
 }
 
 html, body {
   margin: 0;
   padding: 0;
   width: 100%;
-}
-
-header {
-    background-color: #444444;
-    padding: 1.5rem 2rem;
-    width: 100%;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -47,4 +41,10 @@ p {
 small {
     font-size: 14px;
     line-height: 1.5;
+}
+
+.owl-logo{
+    width: 39px;
+    height: 52px;
+    fill: var(--color-secondary-standard);
 }
