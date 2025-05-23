@@ -1,22 +1,16 @@
 import "../CircleButton/CircleButton.css";
-import LinkedInLogo from "../../assets/linkedin_icon.svg?react";
+import type { CircleLinkButtonProps } from "./CircleLinkButtonProps";
 
-const CircleLinkButton = () => {
+const CircleLinkButton: React.FC<CircleLinkButtonProps> = (props) => {
 	return (
 		<a
-			href="https://www.linkedin.com/in/damasceno-guilherme/"
-			aria-label="Check my LinkedIn"
+			href={props.href}
+			aria-label={props.ariaLabel}
 			target="_blank"
 			rel="noopener noreferrer"
-			className="circle-base dark-button"
+			className={`circle-base ${props.variant}-button`}
 			style={{ margin: "0 12px" }}
-		>
-			<LinkedInLogo
-				role="img"
-				aria-labelledby="logoTitle logoDesc"
-				className="inner-logo"
-			></LinkedInLogo>
-		</a>
+		></a>
 	);
 };
 
