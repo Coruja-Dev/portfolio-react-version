@@ -41,12 +41,14 @@ const Presentation = () => {
 					<h2 className="text-secondary">Project Manager</h2>
 				</div>
 			</div>
-			<div><OwlLogo
+			<div>
+				<OwlLogo
 					role="img"
 					aria-labelledby="logoTitle logoDesc"
 					className="owl-logo-big"
 					style={{ fill: "var(--color-secondary-standard)" }}
-				></OwlLogo></div>
+				></OwlLogo>
+			</div>
 		</section>
 	);
 };
